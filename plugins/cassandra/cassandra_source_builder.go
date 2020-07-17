@@ -13,6 +13,8 @@ func Hosts(hosts string) *CassandraSource {
 		ShardCount:   32,
 		Concurrency:  4,
 		prefix:       "cassandra",
+		username:     "",
+		password:     "",
 	}
 }
 
@@ -33,5 +35,15 @@ func (s *CassandraSource) Select(selectClause string) *CassandraSource {
 
 func (s *CassandraSource) Where(whereClause string) *CassandraSource {
 	s.whereClause = whereClause
+	return s
+}
+
+func (s *CassandraSource) Username(username string) *CassandraSource {
+	s.username = username
+	return s
+}
+
+func (s *CassandraSource) Password(password string) *CassandraSource {
+	s.password = password
 	return s
 }

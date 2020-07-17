@@ -26,6 +26,8 @@ type CassandraSource struct {
 	keyspace     string
 	table        string
 	whereClause  string
+	username	 string
+	password	 string
 }
 
 // Generate generates data shard info,
@@ -43,6 +45,10 @@ func (s *CassandraSource) genShardInfos(f *flow.Flow) *flow.Dataset {
 		cluster.Keyspace = s.keyspace
 		cluster.ProtoVersion = 4
 		cluster.Timeout = time.Duration(s.TimeoutSeconds) * time.Second
+		cluster.Authenticator = gocql.PasswordAuthenticator{
+			Username: s.username,
+			Password: s.password,
+		}
 
 		// find out the partition keys
 		session, err := cluster.CreateSession()

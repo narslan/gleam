@@ -18,6 +18,8 @@ type CassandraShardInfo struct {
 	StartToken, StopToken string
 	PartitionKeys         []string
 	TimeoutSeconds        int
+	Username              string
+	Password              string
 
 	Select   string
 	Keyspace string
@@ -48,6 +50,10 @@ func (s *CassandraShardInfo) ReadSplit() error {
 	cluster.ProtoVersion = 4
 	cluster.Timeout = time.Duration(s.TimeoutSeconds) * time.Second
 	cluster.ConnectTimeout = time.Duration(s.TimeoutSeconds) * time.Second
+	cluster.Authenticator = gocql.PasswordAuthenticator{
+		Username: s.Username,
+		Password: s.Password,
+	}
 
 	session, err := cluster.CreateSession()
 	if err != nil {
