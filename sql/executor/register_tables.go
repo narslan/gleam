@@ -1,8 +1,8 @@
 package executor
 
 import (
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/sql/model"
+	"github.com/narslan/gleam/flow"
+	"github.com/narslan/gleam/sql/model"
 )
 
 type TableColumn struct {

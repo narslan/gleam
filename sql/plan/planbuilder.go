@@ -16,17 +16,17 @@ package plan
 import (
 	"fmt"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/infoschema"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/table"
-	"github.com/chrislusf/gleam/sql/terror"
-	"github.com/chrislusf/gleam/sql/util/types"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/ast"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/expression"
+	"github.com/narslan/gleam/sql/infoschema"
+	"github.com/narslan/gleam/sql/model"
+	"github.com/narslan/gleam/sql/mysql"
+	"github.com/narslan/gleam/sql/parser/opcode"
+	"github.com/narslan/gleam/sql/table"
+	"github.com/narslan/gleam/sql/terror"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 // Error instances.

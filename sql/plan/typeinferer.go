@@ -18,13 +18,13 @@ import (
 
 	"log"
 
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
-	"github.com/chrislusf/gleam/sql/util/charset"
-	"github.com/chrislusf/gleam/sql/util/types"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/ast"
+	"github.com/narslan/gleam/sql/mysql"
+	"github.com/narslan/gleam/sql/parser/opcode"
+	"github.com/narslan/gleam/sql/sessionctx/variable"
+	"github.com/narslan/gleam/sql/util/charset"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 // InferType infers result type for ast.ExprNode.

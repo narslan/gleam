@@ -3,8 +3,8 @@ package instruction
 import (
 	"io"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/pb"
+	"github.com/narslan/gleam/util"
 )
 
 func init() {

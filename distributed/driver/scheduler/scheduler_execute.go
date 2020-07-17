@@ -6,11 +6,11 @@ import (
 	"log"
 	"sync"
 
-	"github.com/chrislusf/gleam/distributed/netchan"
-	"github.com/chrislusf/gleam/distributed/plan"
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/distributed/netchan"
+	"github.com/narslan/gleam/distributed/plan"
+	"github.com/narslan/gleam/flow"
+	"github.com/narslan/gleam/pb"
+	"github.com/narslan/gleam/util"
 )
 
 func (s *Scheduler) remoteExecuteOnLocation(ctx context.Context,

@@ -18,8 +18,8 @@
 package table
 
 import (
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/terror"
+	"github.com/narslan/gleam/sql/model"
+	"github.com/narslan/gleam/sql/terror"
 )
 
 var (

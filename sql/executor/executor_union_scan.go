@@ -1,9 +1,9 @@
 package executor
 
 import (
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
+	"github.com/narslan/gleam/flow"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/expression"
 )
 
 type UnionScanExec struct {

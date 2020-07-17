@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/util/codec"
-	"github.com/chrislusf/gleam/sql/util/types"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/expression"
+	"github.com/narslan/gleam/sql/util/codec"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 const (

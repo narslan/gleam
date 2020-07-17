@@ -14,12 +14,12 @@
 package plan
 
 import (
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/infoschema"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/terror"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/ast"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/infoschema"
+	"github.com/narslan/gleam/sql/mysql"
+	"github.com/narslan/gleam/sql/terror"
 )
 
 // AllowCartesianProduct means whether tidb allows cartesian join without equal conditions.

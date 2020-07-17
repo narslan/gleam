@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/util"
 )
 
 func (as *AgentServer) handleLocalWriteConnection(reader io.Reader, writerName, channelName string, readerCount int) {

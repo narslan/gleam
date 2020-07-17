@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/util"
 )
 
 type TxtFileReader struct {

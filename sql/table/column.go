@@ -21,12 +21,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/util/types"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/expression"
+	"github.com/narslan/gleam/sql/model"
+	"github.com/narslan/gleam/sql/mysql"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 // Column provides meta data describing a table column.

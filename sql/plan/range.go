@@ -19,10 +19,10 @@ import (
 	"sort"
 
 	"github.com/juju/errors"
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/sessionctx/variable"
-	"github.com/chrislusf/gleam/sql/util/types"
+	"github.com/narslan/gleam/sql/ast"
+	"github.com/narslan/gleam/sql/expression"
+	"github.com/narslan/gleam/sql/sessionctx/variable"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 type rangePoint struct {

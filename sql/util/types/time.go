@@ -24,8 +24,8 @@ import (
 	gotime "time"
 	"unicode"
 
-	"github.com/chrislusf/gleam/sql/mysql"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/mysql"
 )
 
 // Portable analogs of some common call errors.

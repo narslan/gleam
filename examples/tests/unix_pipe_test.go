@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/flow"
+	"github.com/narslan/gleam/util"
 )
 
 func TestPipePerformance(t *testing.T) {

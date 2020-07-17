@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/narslan/gleam/pb"
 )
 
 type MapperId string

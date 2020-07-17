@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/chrislusf/gleam/sql/mysql"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/mysql"
 )
 
 // Common base error instances.

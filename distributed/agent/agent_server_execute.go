@@ -9,9 +9,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/chrislusf/gleam/pb"
 	"github.com/golang/protobuf/proto"
 	"github.com/kardianos/osext"
+	"github.com/narslan/gleam/pb"
 )
 
 func (as *AgentServer) executeCommand(

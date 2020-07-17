@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chrislusf/gleam/pb"
+	"github.com/narslan/gleam/pb"
 )
 
 // TsvPrintf reads TSV lines from reader,

@@ -1,6 +1,6 @@
 package gio
 
-import "github.com/chrislusf/gleam/util"
+import "github.com/narslan/gleam/util"
 
 func ToInt64(val interface{}) int64 {
 	return util.ToInt64(val)

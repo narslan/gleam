@@ -16,8 +16,8 @@ package expression
 import (
 	"strings"
 
-	"github.com/chrislusf/gleam/sql/ast"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/ast"
 )
 
 // KeyInfo stores the columns of one unique key or primary key.

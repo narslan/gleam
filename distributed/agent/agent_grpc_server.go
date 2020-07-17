@@ -10,8 +10,9 @@ import (
 	"path/filepath"
 
 	"context"
-	"github.com/chrislusf/gleam/distributed/resource"
-	"github.com/chrislusf/gleam/pb"
+
+	"github.com/narslan/gleam/distributed/resource"
+	"github.com/narslan/gleam/pb"
 	"google.golang.org/grpc"
 )
 

@@ -4,8 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ajstarks/svgo"
-	"github.com/chrislusf/gleam/pb"
+	"github.com/narslan/gleam/pb"
 )
 
 var (

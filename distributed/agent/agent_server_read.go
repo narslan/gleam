@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/util"
 )
 
 func (as *AgentServer) handleReadConnection(conn net.Conn, readerName, channelName string) {

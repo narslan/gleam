@@ -18,11 +18,11 @@
 package expression
 
 import (
-	"github.com/chrislusf/gleam/sql/ast"
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/parser/opcode"
-	"github.com/chrislusf/gleam/sql/util/types"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/ast"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/parser/opcode"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 // baseBuiltinFunc will be contained in every struct that implement builtinFunc interface.

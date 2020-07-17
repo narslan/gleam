@@ -1,7 +1,7 @@
 package flow
 
 import (
-	"github.com/chrislusf/gleam/instruction"
+	"github.com/narslan/gleam/instruction"
 )
 
 // Join joins two datasets by the key.

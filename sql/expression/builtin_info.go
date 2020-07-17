@@ -18,10 +18,10 @@
 package expression
 
 import (
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/mysql"
-	"github.com/chrislusf/gleam/sql/util/types"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/mysql"
+	"github.com/narslan/gleam/sql/util/types"
 )
 
 var (

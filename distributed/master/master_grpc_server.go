@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"context"
-	"github.com/chrislusf/gleam/pb"
+
 	"github.com/golang/protobuf/proto"
-	"github.com/hashicorp/golang-lru"
+	"github.com/narslan/gleam/pb"
 )
 
 type MasterServer struct {

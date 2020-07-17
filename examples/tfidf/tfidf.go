@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/chrislusf/gleam/distributed"
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/gio"
-	"github.com/chrislusf/gleam/gio/mapper"
-	"github.com/chrislusf/gleam/gio/reducer"
-	"github.com/chrislusf/gleam/util"
+	"github.com/narslan/gleam/distributed"
+	"github.com/narslan/gleam/flow"
+	"github.com/narslan/gleam/gio"
+	"github.com/narslan/gleam/gio/mapper"
+	"github.com/narslan/gleam/gio/reducer"
+	"github.com/narslan/gleam/util"
 )
 
 var (

@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
 	"github.com/golang/protobuf/proto"
+	"github.com/narslan/gleam/pb"
+	"github.com/narslan/gleam/util"
 )
 
 type AgentServerOption struct {

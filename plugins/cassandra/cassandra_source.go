@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/gleam/flow"
-	"github.com/chrislusf/gleam/pb"
-	"github.com/chrislusf/gleam/util"
 	"github.com/gocql/gocql"
+	"github.com/narslan/gleam/flow"
+	"github.com/narslan/gleam/pb"
+	"github.com/narslan/gleam/util"
 )
 
 type CassandraSource struct {
@@ -26,8 +26,8 @@ type CassandraSource struct {
 	keyspace     string
 	table        string
 	whereClause  string
-	username	 string
-	password	 string
+	username     string
+	password     string
 }
 
 // Generate generates data shard info,

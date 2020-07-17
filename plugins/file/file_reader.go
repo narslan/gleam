@@ -7,14 +7,14 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/chrislusf/gleam/filesystem"
-	"github.com/chrislusf/gleam/plugins/file/csv"
-	"github.com/chrislusf/gleam/plugins/file/orc"
-	"github.com/chrislusf/gleam/plugins/file/parquet"
-	"github.com/chrislusf/gleam/plugins/file/tsv"
-	"github.com/chrislusf/gleam/plugins/file/txt"
-	"github.com/chrislusf/gleam/util"
 	"github.com/klauspost/compress/zstd"
+	"github.com/narslan/gleam/filesystem"
+	"github.com/narslan/gleam/plugins/file/csv"
+	"github.com/narslan/gleam/plugins/file/orc"
+	"github.com/narslan/gleam/plugins/file/parquet"
+	"github.com/narslan/gleam/plugins/file/tsv"
+	"github.com/narslan/gleam/plugins/file/txt"
+	"github.com/narslan/gleam/util"
 )
 
 type FileReader interface {

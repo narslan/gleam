@@ -18,11 +18,11 @@ import (
 
 	"log"
 
-	"github.com/chrislusf/gleam/sql/context"
-	"github.com/chrislusf/gleam/sql/expression"
-	"github.com/chrislusf/gleam/sql/model"
-	"github.com/chrislusf/gleam/sql/mysql"
 	"github.com/juju/errors"
+	"github.com/narslan/gleam/sql/context"
+	"github.com/narslan/gleam/sql/expression"
+	"github.com/narslan/gleam/sql/model"
+	"github.com/narslan/gleam/sql/mysql"
 )
 
 const (
